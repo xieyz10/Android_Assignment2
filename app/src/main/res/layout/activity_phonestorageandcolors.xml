@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_PleaseSelectCapacity"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/purple_500"/>
+
+    <RadioGroup
+        android:id="@+id/phoneStorageGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/capacity_32"
+        >
+
+        <RadioButton
+            android:id="@+id/capacity_32"
+            android:text="@string/radioButton_PhoneCapacityAndPrice_32GB"
+            android:checked="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/capacity_64"
+            android:text="@string/radioButton_PhoneCapacityAndPrice_64GB"
+            android:checked="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/capacity_128"
+            android:text="@string/radioButton_PhoneCapacityAndPrice_128GB"
+            android:checked="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_PleaseSelectPhoneColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/purple_500"/>
+
+    <Spinner
+        android:id="@+id/color_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/colors"
+        android:prompt="@string/color_prompt"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btnCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_checkout"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:onClick="checkOut"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

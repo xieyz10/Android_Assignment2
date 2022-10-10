@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="color_prompt">Please choose a color</string>
+    <string name="button_checkout">Check Out</string>
+    <string name="button_PlaceOrder">Place Order</string>
+    <string name="textView_CVV">CVV:</string>
+    <string name="textView_ExpirationDate">Expiration Date:</string>
+    <string name="textView_CardType">Card Type:</string>
+    <string name="textView_CardNumber">Card Number:</string>
+    <string name="textView_PaymentInformation">Payment Information</string>
+    <string name="textView_TelephoneNumber">Telephone Number:</string>
+    <string name="textView_PostalCode">Postal Code:</string>
+    <string name="textView_City">City:</string>
+    <string name="textView_Address">Address:</string>
+    <string name="textView_Name">Name:</string>
+    <string name="textView_ContactInformation">Contact Information</string>
+    <string name="textView_OrderCompleted">Your order successfully completed</string>
+    <string name="textView_StorageCapacityAndPrice">Storage Capacity and Price:</string>
+    <string name="textView_PhoneColor">Phone Color:</string>
+    <string name="textView_PhoneModel">Phone Model:</string>
+    <string name="textView_PhoneInformation">Phone Information:</string>
+    <string name="textView_PleaseSelectCapacity">Please select storage capacity:</string>
+    <string name="textView_PleaseSelectPhoneColor">Please select phone color:</string>
+    <string name="radioButton_PhoneCapacityAndPrice_32GB">32GB $399</string>
+    <string name="radioButton_PhoneCapacityAndPrice_64GB">64GB $499</string>
+    <string name="radioButton_PhoneCapacityAndPrice_128GB">128GB $599</string>
+    <string name="textView_CompanyDescription">Company Description</string>
+    <string-array name="colors">
+        <item>Blue</item>
+        <item>Black</item>
+        <item>Silver</item>
+        <item>Gold</item>
+    </string-array>
+
+</resources>
