@@ -1,5 +1,16 @@
-package com.example.myapplication
+//
+// App.js
+//
+//App Name: Assignment 2
+//Author: Mingyuan Xie
+//
+//Created by MingyuanXie on 10/14/2022
 
+//Revision History
+//v1.0 created a basic app
+//v1.1 implemented basic functionalities
+
+package com.example.myapplication
 import android.content.Intent
 import android.os.Bundle
 import android.view.View

@@ -24,7 +24,7 @@
     <string name="radioButton_PhoneCapacityAndPrice_32GB">32GB $399</string>
     <string name="radioButton_PhoneCapacityAndPrice_64GB">64GB $499</string>
     <string name="radioButton_PhoneCapacityAndPrice_128GB">128GB $599</string>
-    <string name="textView_CompanyDescription">Company Description</string>
+    <string name="textView_CompanyDescription">This app offers its customers to order smart phones</string>
     <string-array name="colors">
         <item>Blue</item>
         <item>Black</item>
